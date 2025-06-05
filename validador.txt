@@ -1,0 +1,14 @@
+INICIO;
+INT  x y z;
+LEER x;
+LEER y;
+SI x > y ENTONCES
+z := x - y;
+SINO
+z := y - x;
+FINSI;
+MIENTRAS z > 0 HACER
+z := z - 1;
+FINMIENTRAS;
+PRESENTAR z;
+FIN.
